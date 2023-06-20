@@ -211,7 +211,7 @@ header {
 
 .location {
   margin: 0 80px;
-  padding: 60px;
+  padding: 60px 0;
 }
 
 .location-cities {
@@ -402,14 +402,14 @@ footer {
   flex: 1;
 }
 
+.footer-info a:hover {
+  text-decoration: underline;
+}
+
 .footer-info a {
   text-decoration: none;
   margin-top: 10px;
   color: #3d3d3d;
-}
-
-.footer-info a:hover {
-  color: red;
 }
 
 .copy-right {
@@ -453,6 +453,7 @@ footer {
   display: flex;
   justify-content: flex-end;
   flex: 1;
+  margin-bottom: 15px;
   text-decoration: none;
 }
 
